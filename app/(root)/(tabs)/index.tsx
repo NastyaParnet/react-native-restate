@@ -54,7 +54,7 @@ export default function Index() {
               </View>
 
               <FlatList
-                data={[1, 2, 3]}
+                data={[5, 6, 7]}
                 renderItem={() => <FeaturedCard />}
                 keyExtractor={(item) => item.toString()}
                 horizontal
